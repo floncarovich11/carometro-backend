@@ -1,0 +1,27 @@
+{
+  "name": "carometro-backend",
+  "version": "1.0.0",
+  "description": "Felipe L",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floncarovich11/carometro-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floncarovich11/carometro-backend/issues"
+  },
+  "homepage": "https://github.com/floncarovich11/carometro-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  }
+}
